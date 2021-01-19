@@ -32,6 +32,7 @@ jobs:
         run: cd lede && ./scripts/feeds update -a
         
 
+
       - name: Install feeds
         run: cd lede && ./scripts/feeds install -a
       
