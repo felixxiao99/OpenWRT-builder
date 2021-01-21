@@ -68,7 +68,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@master
         with:
-          name: OpenWrt
+          name: OpenWrt-x86_64
           path: lede/bin/targets/x86/64
           
           
