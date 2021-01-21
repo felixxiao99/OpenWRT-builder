@@ -31,6 +31,7 @@ jobs:
       run: |
         git clone --depth 1 $REPO_URL -b $REPO_BRANCH .
         echo "::set-output name=commitHash::$(git rev-parse HEAD)"
+        echo secrets.ACTIONS_TRIGGER_PAT
 
     - name: Compare Commit Hash
       id: cacheHash
