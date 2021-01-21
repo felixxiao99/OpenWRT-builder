@@ -22,7 +22,6 @@ jobs:
           cd lede
           sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
           cd ./package/lean
-          git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
           git clone https://github.com/tty228/luci-app-serverchan.git
           git clone https://github.com/esirplayground/luci-app-poweroff.git
           git clone https://github.com/project-openwrt/openwrt-filebrowser.git
