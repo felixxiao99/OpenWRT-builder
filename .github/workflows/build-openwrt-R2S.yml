@@ -1,6 +1,7 @@
 name: Build OpenWrt(R2S)
 
 on: 
+  repository_dispatch:
   workflow_dispatch:
 
 jobs:
