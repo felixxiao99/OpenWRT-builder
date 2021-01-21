@@ -50,7 +50,7 @@ jobs:
       
       - name: Load custom configuration
         run: |
-          mv .config lede/.config
+          mv x86_64.config lede/.config
           
       - name: Download package
         run: |
