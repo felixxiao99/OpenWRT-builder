@@ -68,8 +68,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@master
         with:
-          name: OpenWrt
-          path: lede/bin/targets/x86/64
+          name: OpenWrt-R2S
+          path: lede/bin/targets/rockchip/armv8
           
           
           
